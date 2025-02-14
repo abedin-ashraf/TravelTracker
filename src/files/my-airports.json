@@ -1,0 +1,102 @@
+{
+    "type": "AirportsCollection",
+    "airports": [
+        {
+            "text": "DAC",
+            "size": 1.0,
+            "country": "Bangladesh",
+            "city": "Dhaka",
+            "lat": "23.843333",
+            "lng": "90.397778"
+        },
+        {
+            "text": "IST",
+            "size": 1.0,
+            "country": "Turkey",
+            "city": "Istanbul",
+            "lat": "41.275",
+            "lng": "28.751944"
+        },
+        {
+            "text": "ORD",
+            "size": 1.0,
+            "country": "United States",
+            "city": "Chicago",
+            "lat": "41.9786",
+            "lng": "-87.9048"
+        },
+        {
+            "text": "STL",
+            "size": 1.0,
+            "country": "United States",
+            "city": "St. Louis",
+            "lat": "38.7487",
+            "lng": "-90.3700"
+        },
+        {
+            "text": "LGA",
+            "size": 1.0,
+            "country": "United States",
+            "city": "New York",
+            "lat": "40.776927",
+            "lng": "-73.873966"
+        },
+        {
+            "text": "AUH",
+            "size": 1.0,
+            "country": "United Arab Emirates",
+            "city": "Abu Dhabi",
+            "lat": "24.433",
+            "lng": "54.651"
+        },
+        {
+            "text": "CGP",
+            "size": 1.0,
+            "country": "Bangladesh",
+            "city": "Chittagong",
+            "lat": "22.2486",
+            "lng": "91.8133"
+        },
+        {
+            "text": "SIN",
+            "size": 1.0,
+            "country": "Singapore",
+            "city": "Singapore",
+            "lat": "1.2916666666667",
+            "lng": "103.85"
+        },
+        {
+            "text": "SEA",
+            "size": 1.0,
+            "country": "United States",
+            "city": "Seattle",
+            "lat": "47.448889",
+            "lng": "-122.309444"
+        },
+        {
+            "text": "PHL",
+            "size": 1.0,
+            "country": "United States",
+            "city": "Philadelphia",
+            "lat": "39.8719",
+            "lng": "-75.2411"
+        },
+        {
+            "text": "DOH",
+            "size": 1.0,
+            "country": "Qatar",
+            "city": "Doha",
+            "lat": "25.276987",
+            "lng": "51.520008"
+        },
+        {
+            "text": "SFO",
+            "size": 1.0,
+            "country": "United States",
+            "city": "San Francisco",
+            "lat": "37.7749",
+            "lng": "-122.4194"
+        }
+
+    ]
+}
