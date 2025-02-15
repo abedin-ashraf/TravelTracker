@@ -146,7 +146,7 @@ function initGlobe() {
       .labelResolution(6)
       .labelAltitude(0.01)
       .pointsData(airportHistory.airports)
-      .pointColor(() => "#ffffff")
+      .pointColor((e) => e.visited === "true" ? "#FF4000" :"#ffffff")
       .pointsMerge(true)
       .pointAltitude(0.07)
       .pointRadius(0.05);
