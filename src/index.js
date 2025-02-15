@@ -110,7 +110,7 @@ function initGlobe() {
     .atmosphereAltitude(0.25)
     .hexPolygonColor((e) => {
       if (
-        ["KGZ", "KOR", "THA", "RUS", "UZB", "IDN", "KAZ", "MYS"].includes(
+        ["DAC", "IST", "ORD", "STL", "LGA", "AUH", "CGP", "SIN", "SEA", "PHL", "DOH", "SFO"].includes(
           e.properties.ISO_A3
         )
       ) {
@@ -148,7 +148,7 @@ function initGlobe() {
       .pointsData(airportHistory.airports)
       .pointColor((e) => e.visited === "true" ? "#FF4000" :"#ffffff")
       .pointsMerge(true)
-      .pointAltitude(0.07)
+      .pointAltitude((e) => e.visited === "true" ? 0.1 : 0.07)
       .pointRadius(0.05);
   }, 1000);
 
